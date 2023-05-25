@@ -1,0 +1,510 @@
+.ofertas {
+ display:flex;
+ justify-content:center;
+ align-items:center;
+letter-spacing: 2px;
+    width:100%;
+    height:20px;
+    overflow:hidden;
+    background-color:whitesmoke;
+}
+
+logo{
+    width:100%;
+    height:60px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+   
+}
+.logo{
+   
+    height:60px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    position:relative;
+}
+.blog{
+    position:absolute;
+    font-family: 'Allura', cursive;
+    letter-spacing:1px;
+    font-size:20px;
+    top:5px;
+    left:-8px;
+    font-weight:bold;
+    transform:rotate(-12deg);
+    
+}
+.cafetera-me{
+    font-size:30px;
+}
+.img-logo {
+width:60px;
+}
+
+.menu-tipos {
+    background-color:var(--menu-color); 
+    color:var(--color-letter);
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+    width:100%;
+    height:40px;
+    margin-bottom: 10px;
+    
+}
+ .menu-tipos-responsive {
+        display:none;
+    }
+
+
+
+
+.menu-tipos-li a { 
+    margin:5px;
+    list-style: none;
+    letter-spacing: 2px;
+    text-transform:uppercase;
+    font-weight: bold;
+    cursor: default;
+    color:whitesmoke;
+    text-decoration: none;
+  
+   
+    
+}
+.menu-tipos-li a:hover {
+    font-weight: bold;
+    color:var(--color-border);
+ 
+}
+
+.main-text-p{
+    width:90%;
+    text-align: center;
+    height:auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+   
+}
+.especial {
+    
+    font-size:22px;
+   
+}
+.main-text{
+    width:100%;
+    height:auto;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    margin-top:10px;
+}
+
+
+ /* ACORDEON CAFETERAS */
+.cafeteras {
+    position:relative;
+}
+.down-arrow-cafeteras{
+    width:20px;
+    cursor:pointer;
+    transform:translate(3px , 3px)
+}
+.cafeteras-acordeon{
+    display:flex;
+    flex-direction: column;
+    background-color:var(--menu-color); 
+    width:200px;
+    height:0px;
+    position:absolute;
+    top:22px;
+    padding:5px;
+    overflow: hidden;
+    transition:0.4s height;
+   
+    z-index:2;
+ 
+    
+}
+.cafeteras-acordeon.start{
+    height:120px;
+    border-bottom:2px solid whitesmoke;
+}
+.cafeteras-acordeon-ancord{
+font-size: 12px;
+}
+.cafeteras-acordeon li{
+    margin-top:8px;
+    text-transform:uppercase;
+    font-weight: bold;
+  
+    color:whitesmoke;
+    
+}
+.cafeteras-acordeon li:hover{
+    color:var(--color-border);
+}
+
+
+/* //////////////////////////// */
+.one,.two,.trhee{
+    display:flex;
+    flex-direction: column;
+
+}
+                    
+                    /* ACORDEON DE LOS H1  */
+                    .acordeon {
+                        overflow: hidden;
+                    }
+                    .trhee img, .three-arrow{
+                        position:relative;
+                        top:2px;
+                        left:10px;
+
+                    }
+                    .two img, two-arrow{
+                        position:relative;
+                        top:2px;
+                        left:60px;
+                    }
+                    .one img, one-arrow{
+                        position:relative;
+                        top:2px;
+                        left:62.5px;
+                    }
+                    .acordeon-p {
+                        height:0;
+                        
+                    
+                    }
+                    .acordeon-p-one.auto{
+                        
+                        display:flex;
+                        width:100%;
+                        justify-content: center;
+                        align-items:center;
+                        background-color:var(--menu-acordeon);
+                        border:2px solid var(--menu-color);
+                        height:auto;
+                        margin-top:10px;
+                        padding:1.5em;
+                        
+                       
+                    
+                    }
+                    .acordeon-p-two.auto{
+                        display:flex;
+                        width:100%;
+                        justify-content: center;
+                        align-items:center;
+                        background-color:var(--menu-acordeon);
+                        border:2px solid var(--menu-color);
+                        height:auto;
+                        padding:1.5em;
+                        margin-top:10px;
+
+                       
+                    
+                    }
+                    .acordeon-p-three.auto{
+                        display:flex;
+                        width:100%;
+                        justify-content: center;
+                        align-items:center;
+                        background-color:var(--menu-acordeon);;
+                        border:2px solid var(--menu-color);
+                        height:auto;
+                        padding:1.5em;
+                        margin-top:10px;
+                       
+                    }
+                    .down-arrow {
+                    width:20px;
+                    cursor:pointer;
+                   
+                   
+                    }
+
+                    .one-arrow.degree{
+                      
+                        transform:rotate(180deg)  ;
+                      
+                    
+                    
+                    }
+                    .two-arrow.degree{
+                       
+                        transform:rotate(180deg)  ;
+                        
+                    
+                    }
+                    .three-arrow.degree{
+                      
+                        transform:rotate(180deg)  ;
+                       
+                    
+                    }
+
+/* CONTENEDOR DE FOTOS */
+.container-fotos {
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr;
+    
+    gap:10px;
+    margin-top:30px;
+}
+
+
+
+
+.container-foto-brazo,.container-foto-capsula,.container-foto-goteo,.container-foto-grano{
+    margin-bottom:10px;
+   
+}
+.container-foto-brazo{
+    display:flex;
+    background-image:url('../Imagenes/portada/tazaGrano.jpg');
+    background-repeat: no-repeat;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size:100%;
+    width:100%;
+    height:250px;
+    justify-content:end;
+    transition:1s linear;
+    flex-direction: column;
+    cursor:pointer;
+    
+}
+
+.container-foto-capsula{
+    display:flex;
+    background-image:url('../Imagenes/portada/tazaCapsulas.jpg');
+    background-repeat: no-repeat;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size:100%;
+    width:100%;
+    height:250px;
+    justify-content:end;
+    transition:1s linear;
+    flex-direction: column;
+    cursor:pointer;
+
+}
+.container-foto-goteo{
+    display:flex;
+    background-image:url('../Imagenes/portada/tazaGoteo.jpg');
+    background-repeat: no-repeat;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: 100%;
+    width:100%;
+    height:250px;
+    justify-content:end;
+    transition:1s linear;
+    flex-direction: column;
+    cursor:pointer;
+
+}
+.container-foto-italiana{
+    display:flex;
+    background-image:url('../Imagenes/portada/tazafrancesa.jpg');
+    background-repeat: no-repeat;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size:100%;
+    width:100%;
+    height:250px;
+    justify-content:end;
+    transition:1s linear;
+    flex-direction: column;
+    cursor:pointer;
+}
+.container-foto-italiana:hover,.container-foto-capsula:hover,
+.container-foto-goteo:hover,.container-foto-brazo:hover {
+    background-size:110%;
+   
+   
+
+}
+.letrero{
+    background:white;
+    text-align: center;
+    width:400px;
+    height:35px;
+  
+  
+}
+.title{
+    color:black;
+    font-size:20px;  
+    text-align:center; 
+    transform: translatey( 5px);
+
+}
+
+
+                /* RESPONSIVE */
+
+
+@media only screen and (max-width: 1050px){
+
+    .container-fotos {
+        display:grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr;
+        
+        gap:10px;
+        margin-top:30px;
+    
+}
+}
+@media only screen and (max-width:600px){
+
+
+    .menu-tipos{
+        display:none;
+    }
+    .frase-chill{
+        padding:1em;
+        
+    }
+    .main-text-p{
+        width:100%;
+        padding:2em;
+        
+    }
+    
+    .menu-tipos-responsive{
+        display:flex;
+        width: 60px;
+        height:40px;
+        overflow:hidden;
+        flex-direction:column;
+      
+    }
+    
+    .menu-tipos-responsive.grow{
+        background-color:var(--menu-color); 
+        color:var(--color-letter);
+        display:flex;
+        align-items: center;
+        
+        width:100%;
+        height:auto;
+      
+        position:absolute;
+        top:0;
+      
+        z-index:1;
+        transition:0.4s linear;
+    }
+   .hamburguer{
+    width: 40px;
+    position:absolute;
+    left:25px;
+    z-index:2;
+   }
+   
+     
+
+    .cross{
+        width:40px;
+        position:relative;
+        z-index:1;
+    left:2.8px;
+visibility: hidden;
+
+    
+    }
+    .down-arrow-cafeteras-responsive{
+        width:20px;
+    }
+
+    .menu-tipos-li-responsive a { 
+       
+        list-style: none;
+        letter-spacing: 2px;
+        text-transform:uppercase;
+        font-weight: bold;
+        cursor: default;
+        color:whitesmoke;
+        text-decoration: none;
+        font-size:25px;
+        
+        
+       }
+
+    
+    .main-text-p-responsive{
+        width:90%;
+        text-align: center;
+        height:auto;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+       
+       
+    }
+ 
+    .main-text-responsive{
+        width:100%;
+        height:auto;
+        text-align: center;
+        display:flex;
+        flex-direction: column;
+        justify-content:space-between;
+        align-items: center;
+      
+    }
+    .cafeteras-responsive {
+        position:relative;
+    }
+    .cafeteras-acordeon-responsive{
+        display:flex;
+        flex-direction: column;
+        background-color:var(--menu-color);  
+        width:200px;
+        height:0px;
+        position:abolute;
+        top:22px;
+      
+        overflow: hidden;
+        transition:0.4s height;
+        z-index:2;
+     }
+    .down-arrow-cafeteras-responsive{
+        width:20px;
+        cursor:pointer;
+        transform:translate(3px , 3px)
+    }
+    .cafeteras-acordeon-responsive.start-responsive{
+        height:120px;
+        border-bottom:2px solid whitesmoke;
+    }
+    .cafeteras-acordeon-responsive li a{
+        font-size:12.5px;
+      }
+    .cafeteras-acordeon-responsive li{
+        margin-top:8px;
+        text-transform:uppercase;
+        font-weight: bold;
+        color:whitesmoke;
+         }
+    .cafeteras-acordeon-responsive li:hover{
+        color:var(--color-border);
+    }
+    
+  
+}
+
+

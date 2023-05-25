@@ -1,0 +1,144 @@
+
+@import url(./style-home.css);
+@import url(./style-historia.css);
+@import url(./style-content.css);
+
+
+
+
+
+
+* {
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+    
+}
+a {
+ text-decoration: none;
+ color:black
+}
+
+li {
+    list-style:none;
+}
+
+h1{ font-size:15px;}
+h2 {font-size:20px;}
+
+.frase-chill {
+ 
+  
+    font-size:25px;
+    font-family: 'Allura', cursive;
+    font-weight:700;
+    
+}
+
+body {
+    background-color:#ccc;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:1em;
+}
+
+.blue-container {
+    width:90%;
+    height:auto;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    border:5px solid var(--color-border);
+    padding:5px;
+    background-color:  var(--color-logo-background);
+    border-radius:5px;
+    margin:0;
+    padding:0;
+   
+}
+
+@media only screen and (max-width:460px){
+  body {
+    background-color:#ccc;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:0;
+ 
+}
+  .blue-container {
+    width:125%;
+    height:auto;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    border:0px solid var(--color-border);
+    padding:10px;
+    background-color:  var(--color-logo-background);
+    border-radius:5px;
+
+   
+   
+}
+}
+
+
+
+:root {
+    --color-letter:rgb(231, 227, 227);
+    --color-logo-background:#abb8c3;
+    --menu-color:#0693e3;
+    --color-hover:#4D5152;
+    --color-border:#4D5152;
+    --menu-acordeon:#aab6b9;
+
+}
+
+/* FOOTER  CHAT GPT*/
+
+footer {
+    margin-top:20px;
+    width:100%;
+    background-color: rgba(6, 147, 227, 0.5); /* Color de fondo transparente con tonalidad #0693e3 */
+    padding: 1.1em; /* Agregar un poco de espacio alrededor del contenido del footer */
+    text-align: center; /* Centrar el contenido del footer */
+    
+  }
+  
+  nav {
+    display: flex; /* Hacer que los iconos se alineen en una línea */
+    justify-content:center;
+    align-items:center; /* Centrar los iconos horizontalmente */
+    margin-top: 10px; /* Agregar un poco de espacio entre los iconos y el texto de la etiqueta small */
+  }
+  
+  nav a {
+    color: #fff; /* Color de los iconos en blanco */
+    font-size: 20px; /* Tamaño de los iconos */
+    margin: 0 10px; /* Agregar un poco de espacio entre los iconos */
+  }
+  
+  a i {
+    margin-left:1px;
+  }
+  
+  /* nav a:hover {
+    opacity: 0.8;
+  } */
+
+  .icono-twitter:hover {
+    color: #125b88; /* Cambiar el color a azul al pasar el ratón sobre el icono de Twitter */
+  }
+  
+  .icono-facebook:hover {
+    color: #4267B2; /* Cambiar el color a azul al pasar el ratón sobre el icono de Facebook */
+  }
+  
+  .icono-instagram:hover {
+    color: #E1306C; 
+  }
