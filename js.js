@@ -9,6 +9,7 @@ const downArrowCafeterasResponsive = document.querySelector(".down-arrow-cafeter
 const downArrowCafeterasCapsulas = document.querySelector('.down-arrow-cafeteras-capsulas')
 const hamburguer = document.querySelector('.hamburguer')
 const cafeterasAcordeonResponsive = document.querySelector(".cafeteras-acordeon-responsive")
+const cafeteras = document.querySelector(".cafeteras")
 const cross = document.querySelector('.cross')
  
 hamburguer.addEventListener('click', ()=>{
@@ -51,6 +52,9 @@ downArrow.forEach(element => element.addEventListener('click' , ()=>{
   
     cafeterasAcordeon.classList.toggle('start')
    })
+ 
+   
+
    
    downArrowCafeterasResponsive.addEventListener('click', ()=>{
   
@@ -64,15 +68,15 @@ downArrow.forEach(element => element.addEventListener('click' , ()=>{
 //    })
 
         containerFotoBrazo.addEventListener('click', ()=>{
-        location.href='./HTML/express-manual.html'
-        console.log('click')
+        location.href='./express-manual.html'
+      
     })
         
         containerFotoCapsula.addEventListener('click', ()=>{
-        location.href='./HTML/capsulas.html'})
+        location.href='./capsulas.html'})
         containerFotoGoteo.addEventListener('click', ()=>{
-        location.href='./HTML/goteo.html'})
+        location.href='./goteo.html'})
         containerFotoItaliana.addEventListener('click', ()=>{
-        location.href='./HTML/italianas.html'})
+        location.href='./italianas.html'})
 
       
