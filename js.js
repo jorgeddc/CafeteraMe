@@ -68,15 +68,15 @@ downArrow.forEach(element => element.addEventListener('click' , ()=>{
 //    })
 
         containerFotoBrazo.addEventListener('click', ()=>{
-        location.href='./cafetera-express.html'
+        location.href='https://www.cafeterame.com/cafetera-express.html'
       
     })
         
         containerFotoCapsula.addEventListener('click', ()=>{
-        location.href='./cafetera-capsulas.html'})
+        location.href='https://www.cafeterame.com/cafetera-capsulas.html'})
         containerFotoGoteo.addEventListener('click', ()=>{
-        location.href='./cafetera-goteo.html'})
+        location.href='https://www.cafeterame.com/cafetera-goteo.html'})
         containerFotoItaliana.addEventListener('click', ()=>{
-        location.href='./cafetera-italiana.html'})
+        location.href='https://www.cafeterame.com/cafetera-italiana.html'})
 
       
